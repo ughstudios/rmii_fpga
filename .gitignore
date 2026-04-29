@@ -1,0 +1,14 @@
+# Cursor / VS Code workspace (machine-local)
+.cursor/
+
+# Gowin synthesis / place & route outputs
+impl/
+
+# IDE user-specific project state
+*.gprj.user
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

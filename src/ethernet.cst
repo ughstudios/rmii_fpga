@@ -1,0 +1,34 @@
+// GW5A-LV25MG121NC1/I0 — LAN8720 RMII (J3)
+
+IO_LOC  "eth_tx0"      K2;
+IO_PORT "eth_tx0"      IO_TYPE=LVCMOS33 DRIVE=8 SLEW_RATE=FAST;
+
+IO_LOC  "eth_tx1"      K1;
+IO_PORT "eth_tx1"      IO_TYPE=LVCMOS33 DRIVE=8 SLEW_RATE=FAST;
+
+IO_LOC  "eth_tx_en"    L1;
+IO_PORT "eth_tx_en"    IO_TYPE=LVCMOS33 DRIVE=8 SLEW_RATE=FAST;
+
+IO_LOC  "eth_rx0"      L2;
+IO_PORT "eth_rx0"      IO_TYPE=LVCMOS33;
+
+IO_LOC  "eth_rx1"      G1;
+IO_PORT "eth_rx1"      IO_TYPE=LVCMOS33;
+
+IO_LOC  "eth_crs"      G2;
+IO_PORT "eth_crs"      IO_TYPE=LVCMOS33;
+
+IO_LOC  "eth_refclk"   J2;
+IO_PORT "eth_refclk"   IO_TYPE=LVCMOS33;
+
+IO_LOC  "eth_mdc"      J1;
+IO_PORT "eth_mdc"      IO_TYPE=LVCMOS33 DRIVE=8 SLEW_RATE=FAST;
+
+IO_LOC  "eth_mdio"     L3;
+IO_PORT "eth_mdio"     IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "debug_out"    K8;
+IO_PORT "debug_out"    IO_TYPE=LVCMOS33;
+
+IO_LOC  "uart_tx"      C3;
+IO_PORT "uart_tx"      IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
